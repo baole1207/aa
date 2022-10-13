@@ -1,0 +1,151 @@
+body{
+    padding: 0;margin: 0;
+}
+header{
+    height: 148px; width: 1534px;background: rgb(177, 249, 251);
+}
+nav{
+    background: rgb(38, 84, 91);
+    line-height: 25px;
+}
+article{
+    min-height:200px;width:75%;background:whitesmoke;
+    float:left; 
+}
+aside{
+    min-height:200px;width: 25%;background: rgb(103, 0, 110);
+    float: left;
+}
+footer{
+    height: 40px;background: rgb(36, 568, 203);
+    clear: both;
+}
+img{
+    width: 1530px;
+    height: 190px;
+}
+.vmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(13, 217, 57);
+    list-style: none;
+    background-color: rgb(127, 0, 165);
+    height: 40px;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+}
+ul.vmenu>li>a:hover{
+    color: rgb(229, 229, 229);
+    font-weight: bold;
+}
+ul.vmenu>li{
+    float: left;
+    margin: 0 5px;
+    position: relative;
+
+}
+ul.vmenu>li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(98, 98, 137);
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+
+}
+.sub-menu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted rgb(191, 173, 139);
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 40px;
+
+}
+.sub-menu>li>a>:hover{
+    color: rgb(198, 172, 222);
+    font-weight: bolder;
+}
+ul.so2{
+    width: 400px;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(61, 153, 0);
+    list-style: none;
+}
+ul.so2>li>a{
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Solid_purple.svg/1200px-Solid_purple.svg.png)no-repeat left center;
+}
+ul.so2>li>a:hover{
+    background:url(https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-9/308211740_5439686649478767_3981263809121501673_n.png?stp=cp0_dst-png&_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=OVMvGVxhtMAAX-mvapn&tn=qR8RmNh-w1ZUDDN3&_nc_ht=scontent.fhan3-2.fna&oh=03_AVI54U0-Mz21BshwBkAqg09LpPuCwXRvBek1DP8Nqmo6bw&oe=63504AE5) no-repeat left center;
+    font-weight: bolder;
+    color: rgb(250, 218, 255)
+}
+.column{
+    width: 25%;
+    float:inherit;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(122, 8, 145);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5%;
+}
+.san-pham .ten{
+font-size: large;
+font-variant: small-caps;
+color: blue;
+}
+.san-pham>img{
+    max-width: 95%;
+    border-radius: 3%;
+}
+.san-pham:hover{
+    box-shadow: 0 0 20px rgb(203, 99, 255);
+    background-color: rgb(214, 214, 214);
+}
+.san-pham.gia{
+color: red;
+font-weight: bold;
+font-size: large;
+}
+.cuoi{
+    display: flex;
+    padding-top: 10px;
+    background-color: rgb(11, 10, 10);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif
+}
+.cuoi{
+    display: flex;
+    gap: 0 121px;
+    padding-left: 66px;
+}
+.anh{
+    width: 580px;
+    height: auto;
+}
+
